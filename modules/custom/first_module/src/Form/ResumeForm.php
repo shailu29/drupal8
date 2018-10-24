@@ -35,7 +35,7 @@ class ResumeForm extends FormBase {
     );
     $form['candidate_number'] = array (
       '#type' => 'tel',
-      '#title' => t('Mobile no'),
+      '#title' => t('Mobile no-'),
     );
     $form['candidate_dob'] = array (
       '#type' => 'date',

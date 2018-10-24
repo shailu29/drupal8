@@ -1,0 +1,25 @@
+first_module.content:
+  path: '/first'
+  defaults:
+    _controller: 'Drupal\first_module\Controller\FirstController::content'
+    _title: 'Hello world'
+  requirements:
+    _permission: 'access content'
+
+first_module.admin_settings_form:  
+  path: '/admin/config/welcome/adminsettings'  
+  defaults:  
+    _form: '\Drupal\first_module\Form\MessagesForm'  
+    _title: 'MessagesForm'  
+  requirements:  
+    _permission: 'access administration pages'  
+  options:  
+    _admin_route: TRUE
+    
+first_module.form:
+ path: '/resume/myform'
+ defaults:
+   _title: 'Application form'
+   _form: '\Drupal\first_module\Form\ResumeForm'
+ requirements:
+    _permission: 'access content'   

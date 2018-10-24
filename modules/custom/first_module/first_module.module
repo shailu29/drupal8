@@ -1,0 +1,13 @@
+<?php
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+function first_module_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id){
+    if ($form_id == 'node_article_form') {
+//        kpr($form_state);
+    }    
+}

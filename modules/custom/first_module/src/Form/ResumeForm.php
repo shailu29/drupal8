@@ -30,7 +30,7 @@ class ResumeForm extends FormBase {
     );
     $form['candidate_mail'] = array(
       '#type' => 'email',
-      '#title' => t('Email ID:'),
+      '#title' => t('Email ID'),
       '#required' => TRUE,
     );
     $form['candidate_number'] = array (

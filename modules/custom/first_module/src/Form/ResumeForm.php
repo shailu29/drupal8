@@ -39,7 +39,7 @@ class ResumeForm extends FormBase {
     );
     $form['candidate_dob'] = array (
       '#type' => 'date',
-      '#title' => t('Date of birth'),
+      '#title' => t('Date of new birth'),
       '#required' => TRUE,
     );
     $form['candidate_gender'] = array (
